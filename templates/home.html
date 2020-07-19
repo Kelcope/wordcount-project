@@ -1,0 +1,10 @@
+<h1>KOBE IS THE GREATEST EVER!<h1>
+
+<a href="{% url 'about' %}">About</a>
+
+<form action="{% url 'count' %}">
+  <textarea cols="40" rows="8" name="fulltext"></textarea>
+  <br />
+  <input type="submit" value="Count!" />
+
+</form>
